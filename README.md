@@ -23,4 +23,4 @@ https://stechnet.netlify.app/
 
    이 저장소를 클론합니다.
    ```bash
-   git clone https://github.com/yujeong223/STech-Net.git
+   git clone https://github.com/pepper-sister/STech-Net.git
