@@ -1,16 +1,16 @@
 import React from 'react';
-import './allwebsites.css';
-import subImage from './sub.jpg';
-import univIcon from './univ.png';
-import potalIcon from './potal.png';
-import campusIcon from './campus.png';
-import bookIcon from './book.png';
-import infoIcon from './info.png';
-import epicIcon from './epic.png';
-import appliIcon from './appli.png';
-import carIcon from './car.png';
+import '../styles/allwebsites.css';
+import subImage from '../assets/sub.jpg';
+import univIcon from '../assets/univ.png';
+import potalIcon from '../assets/potal.png';
+import campusIcon from '../assets/campus.png';
+import bookIcon from '../assets/book.png';
+import infoIcon from '../assets/info.png';
+import epicIcon from '../assets/epic.png';
+import appliIcon from '../assets/appli.png';
+import carIcon from '../assets/car.png';
 
-function All_websites() {
+function Allwebsites() {
   const goToSeoulTechHomepage = () => {
     window.open('https://www.seoultech.ac.kr/index.jsp', '_blank');
   };
@@ -136,4 +136,4 @@ function All_websites() {
   );
 }
 
-export default All_websites;
+export default Allwebsites;

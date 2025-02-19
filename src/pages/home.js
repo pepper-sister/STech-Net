@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import './home.css';
-import mainImage from './main.jpg';
-import univIcon from './univ.png';
-import potalIcon from './potal.png';
-import campusIcon from './campus.png';
-import bookIcon from './book.png';
+import '../styles/home.css';
+import mainImage from '../assets/main.jpg';
+import univIcon from '../assets/univ.png';
+import potalIcon from '../assets/potal.png';
+import campusIcon from '../assets/campus.png';
+import bookIcon from '../assets/book.png';
 
 const Home = () => {
   const [time, setTime] = useState('');
