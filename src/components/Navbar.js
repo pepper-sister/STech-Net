@@ -1,6 +1,6 @@
 import React from 'react';
 import { useLocation } from 'react-router-dom';
-import logo from './logo_text.png';
+import logo from '../assets/logo_text.png';
 import '../styles/Navbar.css';
 
 function Navbar() {
