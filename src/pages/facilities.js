@@ -86,13 +86,13 @@ const Facilities = () => {
   return (
     <div>
       <main>
-        <div className="fac-section">
+        <div class="fac-section">
           <div id="map"></div>
 
-          <div className="button-section">
-            <button className="fac-button" onClick={() => showMarker('printer')}>프린터</button>
-            <button className="fac-button" onClick={() => showMarker('convenience-store')}>편의점</button>
-            <button className="fac-button" onClick={() => showMarker('cafe')}>카페</button>
+          <div class="button-section">
+            <button class="fac-button" onClick={() => showMarker('printer')}>프린터</button>
+            <button class="fac-button" onClick={() => showMarker('convenience-store')}>편의점</button>
+            <button class="fac-button" onClick={() => showMarker('cafe')}>카페</button>
           </div>
         </div>
       </main>

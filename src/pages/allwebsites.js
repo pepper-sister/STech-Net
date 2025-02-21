@@ -46,15 +46,15 @@ function Allwebsites() {
   return (
     <div>
       <main>
-        <div className="sub-section">
-          <div className="subimg-section">
+        <div class="sub-section">
+          <div class="subimg-section">
             <img src={subImage} alt="" />
           </div>
 
-          <div className="sidebar-section">
-            <div className="side-bar1">
-              <button className="sidebar1-button" onClick={goToSeoulTechHomepage}>
-                <img src={univIcon} alt="" className="icon2" />
+          <div class="sidebar-section">
+            <div class="side-bar1">
+              <button class="sidebar1-button" onClick={goToSeoulTechHomepage}>
+                <img src={univIcon} alt="" class="icon2" />
                 서울과학기술대학교 홈페이지
                 <p>
                   학교 소개, 입학 정보, 학과 및 연구소 안내 등
@@ -62,8 +62,8 @@ function Allwebsites() {
                   전반적인 정보를 제공하는 공식 웹사이트
                 </p>
               </button>
-              <button className="sidebar1-button" onClick={goToeCampus}>
-                <img src={campusIcon} alt="" className="icon2" />
+              <button class="sidebar1-button" onClick={goToeCampus}>
+                <img src={campusIcon} alt="" class="icon2" />
                 서울과학기술대학교 e캠퍼스
                 <p>
                   온라인 강의 수강, 강의 자료 다운로드 및
@@ -71,8 +71,8 @@ function Allwebsites() {
                   과제 제출 e-러닝 플랫폼
                 </p>
               </button>
-              <button className="sidebar1-button" onClick={goToSuis}>
-                <img src={infoIcon} alt="" className="icon2" />
+              <button class="sidebar1-button" onClick={goToSuis}>
+                <img src={infoIcon} alt="" class="icon2" />
                 서울과학기술대학교 통합정보
                 <p>
                   학사정보, 학적변동, 성적조회, 수강철회 등
@@ -80,8 +80,8 @@ function Allwebsites() {
                   통합 정보 시스템
                 </p>
               </button>
-              <button className="sidebar1-button" onClick={goToCourse}>
-                <img src={appliIcon} alt="" className="icon2" />
+              <button class="sidebar1-button" onClick={goToCourse}>
+                <img src={appliIcon} alt="" class="icon2" />
                 서울과학기술대학교 수강신청
                 <p>
                   수강 희망 과목을 신청 하는
@@ -91,9 +91,9 @@ function Allwebsites() {
               </button>
             </div>
 
-            <div className="side-bar2">
-              <button className="sidebar2-button" onClick={goToSeoulTechPortal}>
-                <img src={potalIcon} alt="" className="icon2" />
+            <div class="side-bar2">
+              <button class="sidebar2-button" onClick={goToSeoulTechPortal}>
+                <img src={potalIcon} alt="" class="icon2" />
                 서울과학기술대학교 포털
                 <p>
                   등록금 안내 및 고지, 시간표/성적 조회 등
@@ -101,8 +101,8 @@ function Allwebsites() {
                   학교 생활 공지 관련 플랫폼
                 </p>
               </button>
-              <button className="sidebar2-button" onClick={goToLibrary}>
-                <img src={bookIcon} alt="" className="icon2" />
+              <button class="sidebar2-button" onClick={goToLibrary}>
+                <img src={bookIcon} alt="" class="icon2" />
                 서울과학기술대학교 도서관
                 <p>
                   도서 검색, 열람실 좌석 현황,
@@ -110,8 +110,8 @@ function Allwebsites() {
                   전자 자료 열람 등의 서비스를 제공하는 플랫폼
                 </p>
               </button>
-              <button className="sidebar2-button" onClick={goToEpic}>
-                <img src={epicIcon} alt="" className="icon2" />
+              <button class="sidebar2-button" onClick={goToEpic}>
+                <img src={epicIcon} alt="" class="icon2" />
                 서울과학기술대학교 EPiC folio
                 <p>
                   학습을 관리하여 진로설계를 지원하는
@@ -119,8 +119,8 @@ function Allwebsites() {
                   역량 통합관리 시스템
                 </p>
               </button>
-              <button className="sidebar2-button" onClick={goToCar}>
-                <img src={carIcon} alt="" className="icon2" />
+              <button class="sidebar2-button" onClick={goToCar}>
+                <img src={carIcon} alt="" class="icon2" />
                 기계·자동차공학과 홈페이지
                 <p>
                   기계·자동차공학과의 공지사항과

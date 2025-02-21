@@ -46,30 +46,30 @@ const Home = () => {
   return (
     <div>
       <main>
-        <div className="main-section">
-          <div className="mainimg-section">
+        <div class="main-section">
+          <div class="mainimg-section">
             <img src={mainImage} alt="" />
-            <div className="clock-container">
-              <div className="clock-section">학교 서버시간</div>
-              <h2 id="clock" className="clock">{time}</h2>
+            <div class="clock-container">
+              <div class="clock-section">학교 서버시간</div>
+              <h2 id="clock" class="clock">{time}</h2>
             </div>
           </div>
 
-          <div className="mainside-bar">
-            <button className="mainsidebar-button" onClick={goToSeoulTechHomepage}>
-              <img src={univIcon} alt="" className="icon" />
+          <div class="mainside-bar">
+            <button class="mainsidebar-button" onClick={goToSeoulTechHomepage}>
+              <img src={univIcon} alt="" class="icon" />
               과기대 홈페이지
             </button>
-            <button className="mainsidebar-button" onClick={goToSeoulTechPortal}>
-              <img src={potalIcon} alt="" className="icon" />
+            <button class="mainsidebar-button" onClick={goToSeoulTechPortal}>
+              <img src={potalIcon} alt="" class="icon" />
               과기대 포털
             </button>
-            <button className="mainsidebar-button" onClick={goToeCampus}>
-              <img src={campusIcon} alt="" className="icon" />
+            <button class="mainsidebar-button" onClick={goToeCampus}>
+              <img src={campusIcon} alt="" class="icon" />
               e캠퍼스
             </button>
-            <button className="mainsidebar-button" onClick={goToLibrary}>
-              <img src={bookIcon} alt="" className="icon" />
+            <button class="mainsidebar-button" onClick={goToLibrary}>
+              <img src={bookIcon} alt="" class="icon" />
               ST LIBRARY
             </button>
           </div>
