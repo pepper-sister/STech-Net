@@ -3,12 +3,12 @@ import '../styles/Footer.css';
 
 function Footer() {
   return (
-    <footer className="footer">
-      <div className="footer-content">
+    <footer class="footer">
+      <div class="footer-content">
         <p>COPYRIGHT © 2024 STECHNET ALL RIGHTS RESERVED</p>
         <p>Contact: yuyu7123@naver.com</p>
 
-        <div className="icon-links">
+        <div class="icon-links">
           <a href="https://kr.freepik.com/icon/faculty_17649928#fromView=search&page=1&position=0&uuid=a8c009bf-6a49-46df-a996-2bfecc586621">Slamlabs</a>,
           <a href="https://kr.freepik.com/icon/buy_15238854#fromView=search&page=1&position=5&uuid=166a0347-3511-4f1d-88aa-0be61a44e810">SBTS2018</a>,
           <a href="https://kr.freepik.com/icon/online-learning_3146723#fromView=search&page=1&position=6&uuid=924807ff-3faf-4c61-b52b-b75b3be7b394">Zulfa Mahendra</a>,
